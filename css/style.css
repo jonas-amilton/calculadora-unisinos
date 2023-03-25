@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  padding-top: 8em;
+}
+
+.container {
+  background-color: midnightblue;
+  width: 32em;
+  height: 30em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 1em;
+}
+
+.container-calculadora {
+  padding-top: 1em;
+  display: flex;
+  flex-direction: row-reverse;
+  width: calc(100% - 1.5em);
+}
+
+#resultado {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#op {
+  position: absolute;
+  z-index: 999;
+}
+
+.container-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.botao {
+  width: 6em;
+  height: 6em;
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 20em;
+  }
+  .botao {
+    width: 3.4em;
+  }
+}

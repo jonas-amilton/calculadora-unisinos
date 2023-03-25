@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.4.min.js"
+      integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav class="navbar bg-body-tertiary">
+      <div class="container-fluid">
+        <span class="navbar-brand mb-0 h1">Calculadora</span>
+      </div>
+    </nav>
+
+    <main>
+      <div class="container-fluid">
+        <div class="container">
+          <div class="container-calculadora input-group mb-3">
+            <span class="input-group-text" id="op">Operação</span>
+            <input
+              type="text"
+              class="form-control"
+              aria-label="Sizing example input"
+              aria-describedby="inputGroup-sizing-default"
+              id="resultado"
+              value=""
+            />
+          </div>
+          <div class="container-buttons">
+            <div>
+              <div>
+                <input type="button" class="botao" name="c" value="C" />
+              </div>
+              <div>
+                <input type="button" class="botao" name="botao" value="<" />
+              </div>
+              <div>
+                <input type="button" class="botao" name="divisao" value="/" />
+              </div>
+              <div>
+                <input
+                  type="button"
+                  class="botao"
+                  name="multiplicacao"
+                  value="*"
+                />
+              </div>
+            </div>
+            <div>
+              <div>
+                <input type="button" class="botao" name="botao" value="7" />
+              </div>
+              <div>
+                <input type="button" class="botao" name="botao" value="8" />
+              </div>
+              <div>
+                <input type="button" class="botao" name="botao" value="9" />
+              </div>
+              <div>
+                <input type="button" class="botao" name="subtrai" value="-" />
+              </div>
+            </div>
+            <div>
+              <div>
+                <input type="button" class="botao" name="botao" value="4" />
+              </div>
+              <div>
+                <input type="button" class="botao" name="botao" value="5" />
+              </div>
+              <div>
+                <input type="button" class="botao" name="botao" value="6" />
+              </div>
+              <div>
+                <input type="button" class="botao" name="soma" value="+" />
+              </div>
+            </div>
+            <div>
+              <div>
+                <input type="button" class="botao" name="botao" value="1" />
+              </div>
+              <div>
+                <input type="button" class="botao" name="botao" value="2" />
+              </div>
+              <div>
+                <input type="button" class="botao" name="botao" value="3" />
+              </div>
+              <div>
+                <input type="button" class="botao" name="igual" value="=" />
+              </div>
+            </div>
+            <div>
+              <div>
+                <input type="button" class="botao" name="botao" value="0" />
+              </div>
+              <div>
+                <input type="button" class="botao" name="botao" value="." />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
